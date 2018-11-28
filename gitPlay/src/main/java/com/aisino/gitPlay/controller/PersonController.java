@@ -6,5 +6,6 @@ package com.aisino.gitPlay.controller;
  */
 
 public class PersonController {
-    private String username;
+    private String username1;
+    
 }
