@@ -1,0 +1,14 @@
+server:
+  port: 8088
+  context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/poi?useUnicode=true&amp;characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: 1234
+mybatis:
+  mapper-locations: com.yuanyuan.smp.mapper/*.xml
